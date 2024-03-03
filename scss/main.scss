@@ -8,13 +8,13 @@ html{
 }
 
 main{
-    margin-bottom: 110px;
+    margin-bottom: 210px;
 }
 
 footer.footer{
-    padding: 15px;
+    padding: 40px;
     position: absolute;
-    bottom: 0;
+    bottom: 0px;
     width: 100%;
 }
 
@@ -72,29 +72,4 @@ h1{
         opacity: 0;
         transition: all 0.3s;
     }
-}
-
-@media screen and (min-width:768px){
-    hero-scene{
-        padding: 20px;
-    }
-    main{
-        display: flex;
-        justify-content: space-between;
-        align-items: flex-start;
-    }
-    article{
-        width:calc(33.33% - 20px);
-    }
-    button{
-        display: flex;
-        justify-content: center;
-        align-items: flex-start;
-    }
-}
-
-@media screen and (min-width:1200px){
-    main{
-        margin: 0 auto;
-        max-width: 1200px;    }
 }
