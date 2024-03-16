@@ -25,7 +25,7 @@ p{
 
 h1{
     font-family: "Island moments";
-    margin-top: 50px;
+    margin-top: 20px;
     font-size: 60px;
 }
 
@@ -71,5 +71,29 @@ h1{
         transform: translate(-50%, -50%);
         opacity: 0;
         transition: all 0.3s;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .container {
+        width: 100%;
+    }
+    .footer.footer {
+        padding: 50px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .container {
+        width: 90%;
+    }
+    .footer.footer {
+        padding: 40px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .footer.footer {
+        padding: 10px;
     }
 }
