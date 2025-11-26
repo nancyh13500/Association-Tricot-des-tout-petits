@@ -12,7 +12,7 @@ require_once __DIR__ . '/../includes/header.php';
     </div>
 
 
-    <div class="container text-center p-5 bg-secondary">
+    <div class="text-center p-5 bg-secondary">
         <div class="col-12">
             <p>Vous avez des pelotes de laine que vous n'utilisez plus ?<br>
                 Vous êtes au bon endroit. <br><br>

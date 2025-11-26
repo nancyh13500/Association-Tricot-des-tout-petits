@@ -34,16 +34,16 @@ $pageTitle = $pageTitle ?? 'Tricot des tous petits';
                 <div class="collapse navbar-collapse me-5" id="navbarSupportedContent">
                     <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                         <li class="nav-item">
-                            <a class="nav-link" href="/index.php">Accueil</a>
+                            <a class="nav-link fw-bold" href="/index.php">Accueil</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="/pages/projets.php">Projets</a>
+                            <a class="nav-link fw-bold" href="/pages/projets.php">Projets</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="/pages/contact.php">Contact</a>
+                            <a class="nav-link fw-bold" href="/pages/contact.php">Contact</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="/pages/apropos.php">A propos</a>
+                            <a class="nav-link fw-bold" href="/pages/apropos.php">A propos</a>
                         </li>
                     </ul>
                 </div>

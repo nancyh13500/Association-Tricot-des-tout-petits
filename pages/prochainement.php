@@ -11,7 +11,7 @@ require_once __DIR__ . '/../includes/header.php';
         </div>
     </div>
 
-    <div class="container text-center p-5 bg-secondary">
+    <div class="text-center p-5 bg-secondary">
         <div class="col-12">
             <p>Prochain atelier tricot le samedi 20 avril 2024</p><br>
             <p>Horaire de 14h à 16h à l'atelier 22 rue Ramade à Martigues</p><br><br><br>

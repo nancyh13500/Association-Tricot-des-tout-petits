@@ -12,7 +12,7 @@ require_once __DIR__ . '/../includes/header.php';
     </div>
 
 
-    <div class="container text-center p-5 bg-secondary">
+    <div class="text-center p-5 bg-secondary">
         <div class="col-12">
             <h2>Journée mondiale du tricot</h2><br>
             <h3>Samedi 10 juin 2024</h3><br><br>
