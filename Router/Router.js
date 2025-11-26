@@ -50,8 +50,14 @@ const LoadContentPage = async () => {
 const routeEvent = (event) => {
   event = event || window.event;
   event.preventDefault();
+
+  // Si on clique sur une image ou un élément à l'intérieur du lien,
+  // on remonte jusqu'au <a> le plus proche pour récupérer son href.
+  const link = event.target.closest ? event.target.closest("a") : null;
+  const href = link ? link.href : event.target.href;
+
   // Mise à jour de l'URL dans l'historique du navigateur
-  window.history.pushState({}, "", event.target.href);
+  window.history.pushState({}, "", href);
   // Chargement du contenu de la nouvelle page
   LoadContentPage();
 };

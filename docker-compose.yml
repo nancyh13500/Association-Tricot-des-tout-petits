@@ -6,6 +6,9 @@ services:
     container_name: tricot-tout-petits-php
     ports:
       - "8080:80"
+    # En dev : monter le dossier courant dans le conteneur
+    volumes:
+      - .:/var/www/html
     restart: unless-stopped
 
 
