@@ -26,7 +26,7 @@ $pageTitle = $pageTitle ?? 'Tricot des tous petits';
         <nav class="navbar navbar-expand-lg bg-primary">
             <div class="container-fluid ms-5 me-5">
                 <a class="navbar-brand d-flex align-items-center justify-content-center ms-4" href="/index.php">
-                    <img src="/img/logo tricot.png" alt="Tricot des tout petits" class="logo-navbar" style="height: 70px;">
+                    <img src="/img/logo tricot.png" alt="Tricot des tout petits" class="logo-navbar" style="height: 100px;">
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
