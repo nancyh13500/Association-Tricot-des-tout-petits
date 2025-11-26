@@ -1,0 +1,47 @@
+<?php
+// Page Actualités
+$pageTitle = 'Actualités - Tricot des tout petits';
+require_once __DIR__ . '/../includes/header.php';
+?>
+
+<main>
+    <div class="bg-dark text-center">
+        <div class="container p-4">
+            <h1>Actualités</h1>
+        </div>
+    </div>
+
+
+    <div class="container text-center p-5 bg-secondary">
+        <div class="col-12">
+            <p>Vous avez des pelotes de laine que vous n'utilisez plus ?<br>
+                Vous êtes au bon endroit. <br><br>
+                Ramenez tout à l'atelier afin de réaliser des tricots pour les tout petits.<br>
+                En effet, afin d'aider les maternités ainsi que les familles, nous participons à réaliser des brassières, des couvertures, des chaussons, des bonnets pour la naissance des nouveaux nés. <br>
+            </p>
+        </div>
+        <div class="container-fluid">
+            <div class="row row-cols-1 row-cols-lg-3">
+                <div class="col p-3">
+                    <div class="image text-white">
+                        <img src="/img/pelote1.jpg" alt="" class="w-100 rounded">
+                    </div>
+                </div>
+                <div class="col p-3">
+                    <div class="image text-white">
+                        <img src="/img/pelote2.jpg" alt="" class="w-100 rounded">
+                    </div>
+                </div>
+                <div class="col p-3">
+                    <div class="image text-white">
+                        <img src="/img/pelote3.jpg" alt="" class="w-100 rounded">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+
+<?php
+require_once __DIR__ . '/../includes/footer.php';
+?>
