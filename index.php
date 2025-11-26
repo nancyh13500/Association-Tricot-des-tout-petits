@@ -9,7 +9,7 @@ require_once __DIR__ . '/includes/header.php';
         <div class="banniere-content">
             <h1 class="text-banniere position-absolute text-white ms-5">Tricotons pour les tous petits</h1>
         </div>
-        <img src="/img/wool.jpg" alt="wool" class="banniere-image w-100" width="1200" height="800">
+        <img src="/img/wool.jpg" alt="wool" class="banniere-image w-100">
     </div>
 
     <section class="article">
