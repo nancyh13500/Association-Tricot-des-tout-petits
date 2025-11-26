@@ -12055,4 +12055,12 @@ h1, .h1 {
   }
 }
 
+/* Ajustement de l'image de fond sur la page d'accueil */
+.hero-scene {
+  background-size: contain;
+  background-position: center center;
+  background-repeat: no-repeat;
+  min-height: 700px;
+}
+
 /*# sourceMappingURL=main.css.map */

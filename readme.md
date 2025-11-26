@@ -24,6 +24,7 @@ Le projet est prêt à être lancé dans un conteneur **PHP + Apache** grâce à
 ### Lancer le projet avec Docker
 
 ```bash
+cd C:\wamp64\www\Association-Tricot-des-tout-petits
 docker compose build
 docker compose up -d
 ```

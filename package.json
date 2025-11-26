@@ -2,5 +2,18 @@
   "dependencies": {
     "bootstrap": "^5.3.2",
     "bootstrap-icons": "^1.11.3"
+  },
+  "name": "association-tricot-des-tout-petits",
+  "description": "Ce site est une évaluation HTML / CSS / Bootstrap / PHP / Docker compose pour l'association \"Tricot des tout petits\".",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.94.2"
   }
 }
