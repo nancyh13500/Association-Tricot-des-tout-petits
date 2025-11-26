@@ -2,70 +2,86 @@
 @import 'custom';
 
 
-html{
+html {
     position: relative;
     min-height: 100%;
 }
 
-main{
+body {
+    padding-top: 0;
+}
+
+main {
     margin-bottom: 210px;
 }
 
-footer.footer{
+footer.footer {
     padding: 40px;
     position: absolute;
     bottom: 0px;
     width: 100%;
 }
 
-p{
+p {
     font-family: $font-family-serif;
     font-size: 18px;
 }
 
-h1{
+h1 {
     font-family: "Island moments";
     margin-top: 20px;
     font-size: 60px;
 }
 
-.hero-scene{
+.hero-scene {
+    position: relative;
     display: flex;
-    background-image: url(../img/wool.jpg);
-    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+    overflow: hidden;
 }
 
-.hero-scene-content{
-    height: 300px;
-    display: flex;
-    flex-direction: row;
-    margin-left: 50px;
+.hero-image {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
 }
 
-.text-justify{
+.hero-scene-content {
+    position: relative;
+}
+
+.text-justify {
     text-align: justify;
 }
 
-.image-card{
+.image-card {
     display: flex;
     justify-content: center;
     align-items: center;
     position: relative;
-    &:hover{
-        .titre-image{
+
+    &:hover {
+        .titre-image {
             opacity: 1;
         }
-        img{
+
+        img {
             filter: brightness(0.3);
         }
     }
-    img{
+
+    img {
         transition: all 0.3s;
 
     }
 
-    .titre-image{
-        position:absolute;
+    .titre-image {
+        position: absolute;
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
@@ -78,6 +94,7 @@ h1{
     .container {
         width: 100%;
     }
+
     .footer.footer {
         padding: 50px;
     }
@@ -87,6 +104,7 @@ h1{
     .container {
         width: 90%;
     }
+
     .footer.footer {
         padding: 40px;
     }

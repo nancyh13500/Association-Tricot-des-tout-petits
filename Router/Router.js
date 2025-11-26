@@ -26,8 +26,10 @@ const LoadContentPage = async () => {
   const path = window.location.pathname;
   // Récupération de l'URL actuelle
   const actualRoute = getRouteByUrl(path);
-  // Récupération du contenu HTML de la route
-  const html = await fetch(actualRoute.pathHtml).then((data) => data.text());
+  // Récupération du contenu HTML de la route (sans cache pour voir les mises à jour)
+  const html = await fetch(actualRoute.pathHtml, { cache: "no-store" }).then((data) =>
+    data.text()
+  );
   // Ajout du contenu HTML à l'élément avec l'ID "main-page"
   document.getElementById("main-page").innerHTML = html;
 
@@ -50,8 +52,14 @@ const LoadContentPage = async () => {
 const routeEvent = (event) => {
   event = event || window.event;
   event.preventDefault();
+
+  // Si on clique sur une image ou un élément à l'intérieur du lien,
+  // on remonte jusqu'au <a> le plus proche pour récupérer son href.
+  const link = event.target.closest ? event.target.closest("a") : null;
+  const href = link ? link.href : event.target.href;
+
   // Mise à jour de l'URL dans l'historique du navigateur
-  window.history.pushState({}, "", event.target.href);
+  window.history.pushState({}, "", href);
   // Chargement du contenu de la nouvelle page
   LoadContentPage();
 };
