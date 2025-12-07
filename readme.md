@@ -1,42 +1,39 @@
-# Tricot des tout petits
+# Association Tricot des tout petits
 
-Ce site est une évaluation HTML / CSS / Bootstrap / PHP / Docker compose pour l'association "Tricot des tout petits".
+Site web pour l'association "Tricot des tout petits" à Martigues.
 
-Il fonctionne comme une petite Single Page Application (SPA) avec un routeur JavaScript (`Router/Router.js`) et des pages dans le dossier `pages`.
+## Description
 
-## Back-end PHP
+Site web permettant de présenter l'association et ses activités de tricot pour les tout-petits. Le site comprend des pages d'actualités, de projets, de contact et d'informations.
 
-Un petit back-end PHP a été ajouté pour gérer le formulaire de contact :
+## Technologies utilisées
 
-- `api/contact.php` : traite les envois du formulaire de contact et affiche un message de confirmation.
+- PHP
+- Bootstrap 5
+- SCSS
+- Docker
 
-Le formulaire de la page `pages/contact.html` envoie une requête POST vers `/api/contact.php`.
+## Installation
 
-## Docker
-
-Le projet est prêt à être lancé dans un conteneur **PHP + Apache** grâce à Docker.
-
-### Prérequis
-
-- Docker installé
-- Docker Compose
-
-### Lancer le projet avec Docker
+### Avec Docker
 
 ```bash
-cd C:\wamp64\www\Association-Tricot-des-tout-petits
 docker compose build
 docker compose up -d
 ```
 
-Ensuite, ouvrir le site dans le navigateur à l'adresse :
+Le site sera accessible sur `http://localhost:8080`
 
-- `http://localhost:8080`
+### Sans Docker (WAMP/XAMPP)
 
-## Développement en local (sans Docker)
+1. Placer le projet dans le répertoire `www` de votre serveur
+2. Accéder au site via l'URL de votre serveur local
 
-Tu peux aussi utiliser WAMP/XAMPP ou un autre serveur Apache/PHP :
+## Structure du projet
 
-1. Placer le dossier du projet dans le répertoire `www` (ou équivalent) de ton serveur.
-2. Vérifier que `mod_rewrite` est activé pour que le fichier `.htaccess` fonctionne (il redirige les URL de la SPA vers `index.html`).
-3. Accéder au site via l’URL fournie par ton serveur (par exemple `http://localhost/Association-Tricot-des-tout-petits`).
+- `index.php` - Page d'accueil
+- `pages/` - Pages du site (actualités, projets, contact, etc.)
+- `includes/` - Header et footer
+- `api/` - API PHP pour le formulaire de contact
+- `scss/` - Fichiers de style SCSS
+- `img/` - Images du site
