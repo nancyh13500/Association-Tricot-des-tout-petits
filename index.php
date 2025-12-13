@@ -5,23 +5,21 @@ require_once __DIR__ . '/includes/header.php';
 ?>
 
 <main>
-    <div class="banniere position-relative">
-        <div class="banniere-content">
-            <h1 class="text-banniere position-absolute text-white ms-5">Tricotons pour les tous petits</h1>
-        </div>
-        <img src="/img/wool.jpg" alt="wool" class="banniere-image w-100" width="1200" height="800">
-    </div>
 
     <section class="article">
-        <article class="bg-secondary text-center">
+        <div class="presentation bg-secondary text-center pt-5 pb-5 py-5">
             <div class="container p-3">
                 <h1>A Martigues</h1>
-                <p>Retrouvons-nous le samedi matin pour apprendre à tricoter pour les tous petits</p>
+                <p>Retrouvons-nous le samedi matin pour apprendre à tricoter pour les tous petits.</p>
+                <p>Partageons le même passion pour aider les nouveaux nés.</p>
+                <p>Tricotons pour les tous petits.</p>
+                <p class="fw-bold fst-italic">Alors, à vos laines, à vos aiguilles, Tricotez...</p>
+
             </div>
-        </article>
-        <article class="bg-dark p-5">
-            <div class="container bg-dark">
-                <div class="row row-cols-1 row-cols-lg-3 pe-3">
+        </div>
+        <div class="card-image bg-dark p-5">
+            <div class="bg-dark">
+                <div class="row row-cols-1 row-cols-lg-3 px-4 py-4">
                     <div class="col p-3">
                         <div class="image-card text-white">
                             <img src="/img/wool caisse.jpg" alt="" class="w-100">
@@ -29,7 +27,7 @@ require_once __DIR__ . '/includes/header.php';
                         </div>
                         <div class="col bg-secondary p-5 rounded-bottom-3">
                             <div class="text-center">
-                                <p>RDV les vendredis à l’Atelier</p>
+                                <p>RDV des vendredis</p>
                                 <div class="text-center pt-4">
                                     <a href="/pages/actualites.php" class="btn btn-primary">Lire la suite...</a>
                                 </div>
@@ -66,7 +64,7 @@ require_once __DIR__ . '/includes/header.php';
                     </div>
                 </div>
             </div>
-        </article>
+        </div>
     </section>
 </main>
 

@@ -7,8 +7,8 @@
             <p>Copyright 2024 @Nancy créations</p>
         </div>
         <div class="col-12 col-lg-4">
-            <p>1 rue vendôme 13500 Martigues</p>
-            <p><i class="bi bi-telephone"> </i> 06.16.51.41.74</p>
+            <p>1 rue paradis 13500 Martigues</p>
+            <p><i class="bi bi-telephone"> </i> 01.23.45.67.89</p>
         </div>
         <div class="col-12 col-lg-4">
             <p><i class="bi bi-envelope"> </i> nancycreationsbroderie@gmail.com</p>
